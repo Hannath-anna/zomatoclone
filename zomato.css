@@ -1,0 +1,456 @@
+body{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x:hidden ;
+}
+header{
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+    margin-bottom: 6vh;
+
+}
+.header-img{
+    position: absolute;
+    top: -20vh;
+    left: -10vh;
+    z-index: -1;
+    
+
+}
+.ss{
+    display: flex;
+    margin: 1vh 10vw;
+    justify-content: space-between;
+    color: white;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.ss-bar{
+    display: flex;
+}
+.ss-bar li{
+    font-size: 1.15em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    padding-left: 30px;
+    list-style: none;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 7vh;
+    align-items: center;
+}
+
+.logo{
+    width: 23vw;
+}
+.head h3{
+    font-size: 2.2em;
+    color: whitesmoke;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.search{
+    display: flex;
+    width: 55vw;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px 0;
+
+}
+.search input{
+    outline: none;
+    border: none;
+    width: 50%;
+    padding-left: 10px;
+    font-size: 15px;
+     
+}
+.search p{
+    color: gray;
+    border-right: 1px solid gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:  15px;
+    padding-right: 15px;
+}
+.search i:first-child{
+    font-size: 20px;
+    color: rgb(252,119,119);
+    padding-left: 10px;
+    padding-right: 10px;
+
+}.search i{
+    color: grey;
+    padding-left: 10px;
+
+}
+.sec-1{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 370px;
+    height: 220px;
+    overflow: hidden;
+    margin: 8.5px 8.5px;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0 1px 1px rgb(228, 225, 225);
+    background-color: white;
+    transition: 0.3s;
+}
+
+.box img{
+    width: 100%;
+    border-radius: 1px;
+    border: 1px solid rgb(209, 203, 203);
+
+}
+.box:hover{
+    transform: scale(1.05);
+    
+}
+
+.white{
+    
+    position: absolute;
+    bottom: 0cm;
+    border-radius: 0 0 15px 15px;
+    background-color: rgb(248, 241, 241);
+    padding: 0.25cm;
+    width: 100%;
+    height: 20%;
+    z-index: 1;
+}
+.order{
+margin-left: 0.5cm;
+}
+.rem-text{
+    margin-left: 0.5cm;
+
+}
+.white span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    color: rgb(7, 7, 7);
+    letter-spacing: 0.9px;
+    text-align: left;
+    
+}
+.middle{
+    margin: 60px 75px;
+}
+.sec-2 h2{
+    font-size: 2.7rem;
+    font-weight: lighter;
+    
+    margin-bottom: 0.5%;
+}
+.sec-2 div{display: flex;
+    justify-content: space-between;
+align-items: center;
+}
+.sec-2 p{
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color: rgb(126, 119, 119);
+    
+}
+.fe-caret-right,.sec-2 span{
+    color: rgb(248,117,117);
+}
+.box-1{
+    width: 275px;
+    height: 330px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 6px;
+    
+}
+.box-1 div{
+    position: absolute;
+    background: linear-gradient(transparent,black);
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: flex-end;
+    bottom: 0;
+}
+.box-1 div span:first-child{
+    display: inline-block;
+    color: white;
+    padding-left: 10px;
+    font-size: 1rm;
+    padding-bottom: 5px;
+}.box-1 span{
+    font-size: 0.9em;
+}
+
+.box-1 i{
+    color: white;
+    padding-bottom: 10px;
+
+}
+.box-1 img{width: 335px;
+height: 400px;
+object-fit: cover; 
+}
+.sec-3{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 130px;
+    justify-content: space-between;
+}
+.middle h1{
+    font-size: 2.3em;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(82, 75, 75);
+    font-weight: lighter;
+}
+.sec-4{
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 25px;
+    grid-template-columns: 340px 340px 340px;
+    grid-template-rows: auto;
+}
+.box-2{
+    border: 1px solid rgb(235, 233, 233);
+    box-shadow: 0 1px 3px rgb(226, 233, 233);
+    width: 340px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 0s;
+   
+    
+}
+.box-2 div{
+    margin-top: 10px;
+}
+   .box-2 span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    margin-left: 18px;
+    line-height: 30px;
+    color: rgb(90, 86, 86);
+    letter-spacing: 0.9px;
+}.box-2 label{
+    margin-left: 1cm;
+    
+}.order-1{
+    margin-top: 1cm;
+    margin-left: 20px;
+}
+.box-2 i{
+    float: right;
+    margin-right: 0.5cm;
+}
+.box-2:hover{
+       box-shadow: 0 5px 5px rgb(233, 227, 227);
+    }
+    .sec-5{
+        height: 415px;
+        width:100%;
+        background-color: rgb(250, 244, 245);
+    }
+    .box-4 h1{
+        margin-top: 3cm;
+        font-size: 2.7em;
+        padding-left: 15cm;
+        padding-top: 2cm;
+        font-weight: lighter;
+    }
+    
+    .box-4 img{width: 250px;
+        height: 250px;
+         padding-left: 7.4cm;
+       float: left;
+     }
+    .box-4 p{
+        line-height: 30px;
+    }
+    
+    
+   .box-4 label{
+    float: left;
+    color: rgb(46, 43, 43);
+    margin-right: 2cm;
+    font-size: 17px;
+    } 
+    input{
+        accent-color: red;
+        
+    }
+    
+ .box-5
+ {
+    height: 50px;
+    width: 300px;
+    background-color: rgb(253, 247, 247);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(167, 162, 162);
+   
+ }
+ .box-6
+ {background-color: black;
+    height: 50px;
+    width: 160px;
+    background-color: rgb(180, 3, 3);
+    border-radius: 5px;
+    margin-left: 8px;
+ }
+  .box-6:hover{
+    background-color: rgb(248, 59, 59);
+  }
+ .container{
+    display: flex;
+    margin-top: 1.5cm;
+ }
+ .box-5 p{
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(187, 179, 179);
+ }
+ .box-6 p{
+    margin-left: 22px;
+    margin-top: 10px;
+    font-size: 17px;
+ }
+ .box-4 div{
+    color: rgb(180, 175, 175);
+ }
+ .image img{
+    height: 40px;
+    width: 150px;
+    
+margin-right: 12px;
+ }
+ .sec-6 h1{
+    margin-top: 3.5cm;
+    font-size: 30px;
+    font-weight: lighter;
+    color: rgb(27, 27, 27);
+    
+ }
+ .sec-6 div{
+    
+    border: 1px solid rgb(235, 233, 233);
+    width: 29cm;
+    height: 60px;
+    display: grid;
+    grid-row-gap: 15px;
+    border-radius: 10px; 
+ }
+.sec-6{
+  margin-left:2cm ;
+  height: 500px;
+  width: 100%;
+  
+}
+.box-7 span{
+    margin-left: 1cm;
+margin-top: 20px;
+font-size: 20px;
+color: rgb(54, 51, 51);
+}
+.box-7 i{
+    float: right;
+    margin-right: 25px;
+    
+}
+.bx-1 img{
+    
+    width:180px;
+    height: 58px;
+}.sec-7{padding: 70px 80px;
+    
+    background-color: ghostwhite;
+}
+.bx-1
+{
+    display: flex;
+     justify-content: space-between;
+    }
+.bx-2{
+    display: flex;
+}.bx-2 div {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-weight: 400;
+    height: 19px;
+    width: 100px;
+    
+}.bx-2 img{
+    width: 20px;
+    height: 15px;
+    
+}.bx-2 i{
+    margin-left: 9px;
+}.bx-2 span{
+    font-size: 16px;
+}.bx-3
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}.bx-3 div{
+    width: 200px;
+}
+.bx-3 h4{
+    font-weight: lighter;
+    color: black;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+}
+.bx-3 a{
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 8px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: rgb(131, 126, 126);
+    font-size: 15px;
+    letter-spacing: 1px;
+}.bx-3 img{
+    width: 140px;
+    height: 40px;
+    margin-top: 11px;
+    cursor: pointer;
+}
+.bx-3 a:hover{
+    color: black;
+}
+.box-8{
+    display: flex;
+    flex-direction: column;
+
+}
+.box-8 i{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.lst-1{
+    font-size: 13px;
+    color: rgb(116, 113, 113);
+    letter-spacing: 1.5px;
+}
